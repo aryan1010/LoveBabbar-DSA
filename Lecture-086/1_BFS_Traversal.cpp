@@ -56,8 +56,8 @@ int main() {
     vector< pair<int,int> > edges(m, {0,0});
 
     for(int i=0; i<m; i++) {
-        cin >> edges[0].first;
-        cin >> edges[0].second;
+        cin >> edges[i].first;
+        cin >> edges[i].second;
     }
 
     vector<int> solution = BFS(n, edges);
